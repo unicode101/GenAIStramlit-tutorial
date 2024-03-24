@@ -7,7 +7,7 @@ st.sidebar.markdown("# Page 2 ❄️")
 import requests
 from openai import OpenAI
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='')
 
 def download_image(filename, url):
   response = requests.get(url)
